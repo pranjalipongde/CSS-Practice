@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .subscribe {
+        background-color: brown;
+        color: #fff;
+        width: 100px;
+        height: 40px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        margin-right: 8px;
+        /* smooth hover effect */
+        transition: opacity 0.15s;
+      }
+
+      /* pseudoclass element */
+      .subscribe:hover {
+          /* background-color: green; */
+          opacity: 0.8;
+      }
+
+      .subscribe:active {
+          /* background-color: darkmagenta; */
+          opacity: 0.5;
+      }
+
+      .join {
+          background-color: #fff;
+          border-color: blue;
+          border-style: solid;
+          border-width: 1px;
+          color: blue;
+          height: 37px;
+          width: 63px;
+          border-radius: 3px;
+          cursor: pointer;
+          transition: background-color 1s, color 1s;
+      }
+
+      .join:hover {
+          background-color: blue;
+          color: #fff;
+      }
+
+      .join:active {
+          opacity: 0.7;
+      }
+
+      .tweet {
+          background-color: blue;
+          color: #fff;
+          border: none;
+          border-radius: 30px;
+          width: 80px;
+          height: 40px;
+          font-weight: bold;
+          font-size: 15px;
+          cursor: pointer;
+          margin-left: 8px;
+          
+      }
+
+      .tweet:hover {
+          box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.16);
+      }
+
+      .tweet:active {
+          background-color: deeppink;
+      }
+    </style>
+  </head>
+
+  <body>
+    <button class="subscribe">SUBSCRIBE</button>
+
+    <button class="join">JOIN</button>
+
+    <button class="tweet">Tweet</button>
+  </body>
+</html>
